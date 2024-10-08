@@ -1,0 +1,72 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+.container{
+    text-align: center;
+    margin: auto;
+    margin-top: 7%;
+}
+
+h1{
+    color: white;
+    font-weight: 900;
+    font-size: 60px;
+    /* text-decoration: overline; */
+}
+
+th, label{
+    font-size: 30px;
+    color: rgb(207, 205, 198);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.guessField{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid wheat;
+    font-size: larger;
+    outline: 0;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.guessNo, .chances, .res{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.btn{
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+    border: 5px solid blueviolet;
+}
+
+.btn:hover{
+    background-color: rgb(191, 149, 231);
+}
+
+.resetBtn{
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+    border: 5px solid blueviolet;
+    display: block;
+    margin: 0 auto;
+    /* margin-left: 43%;
+    align-content: center; */
+}
+
+.resetBtn:hover{
+    background-color: rgb(191, 149, 231);
+}
